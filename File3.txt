@@ -1,1 +1,3 @@
 Something related to the new feature, but not to the bug fix.
+
+Some edits to file 3.
