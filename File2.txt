@@ -1,1 +1,4 @@
 Start working on a new feature of my analysis script.
+
+Make some more changes to file 2 to demonstrate staging
+and committing in one step.
