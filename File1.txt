@@ -5,3 +5,6 @@ A bug has been fixed here.
 I am adding some new stuff into file1.
 This has nothing to do with git, I am
 just using a text editor.
+
+
+Make some more changes.
