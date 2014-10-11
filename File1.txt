@@ -1,1 +1,2 @@
 I am adding stuff into file1.
+A bug has been fixed here.
