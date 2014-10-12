@@ -11,7 +11,6 @@ def manage_line(line) :
     """
     splitline = line.split()
     if int(splitline[1]) > int(splitline[2]) :
-        print line.rstrip('\n')
         return line.rstrip('\n')
 
 def funcread(fname) : 
@@ -19,6 +18,5 @@ def funcread(fname) :
     f = open(fname,'r')
     for line in f : 
         # Here's where I do stuff...
-        manage_line(line)
+        print manage_line(line)
 
-funcread('data1.txt')
