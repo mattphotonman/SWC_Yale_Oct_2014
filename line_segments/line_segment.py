@@ -28,3 +28,16 @@ def line_segs(point):
         result.add('C')
     
     return result
+
+def in_line_seg(point, seg):
+    """
+    Returns True if the point is in the
+    line segment, otherwise returns
+    False.
+    """
+    return seg in line_segs(point)
+
+
+print line_segs(0.1)
+print line_segs(0.8)
+print line_segs(-1)

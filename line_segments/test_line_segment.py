@@ -21,3 +21,7 @@ def test_line_segs():
     assert line_segment.line_segs(2.6) == {'C'}
     assert_raises(ValueError, line_segment.line_segs, 'dskfjs')
     assert line_segment.line_segs('1.0') == {'A', 'B'}
+
+def test_in_line_seg():
+    assert line_segment.in_line_seg(0.2, 'A') == True
+    assert line_segment.in_line_seg(1.9, 'B') == False
