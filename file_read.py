@@ -11,8 +11,8 @@ def manage_line(line) :
     """
     splitline = line.split()
     if int(splitline[1]) > int(splitline[2]) :
-        print line
-        return line
+        print line.rstrip('\n')
+        return line.rstrip('\n')
 
 def funcread(fname) : 
     # Create a file handle so I can read the file
