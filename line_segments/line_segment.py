@@ -38,6 +38,16 @@ def in_line_seg(point, seg):
     return seg in line_segs(point)
 
 
+# Make a function that returns
+# the line segments that a point
+# does NOT belong to.
+# 
+# Hint:  Write some tests first.
+#
+# Hint 2: Use some of the functions
+# we already wrote.
+
+
 print line_segs(0.1)
 print line_segs(0.8)
 print line_segs(-1)
